@@ -1,0 +1,7 @@
+ipykernel
+numpy
+pandas
+scipy
+matplotlib
+requests
+bokeh
