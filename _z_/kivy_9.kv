@@ -1,0 +1,29 @@
+<CustomLayout>
+    canvas.before:
+        BorderImage:
+            # BoderImage is like CSS
+            border: 10, 10, 10, 10
+            texture: self.background_image.texture
+            pos: self.pos
+            size: self.size
+
+<RootWidget>
+    CustomLayout:
+        size_hint: 0.9, 0.9
+        pos_hint: {"center_x": 0.5, "center_y": 0.5}
+        rows: 1
+        Label:
+            text: "I don't suffer from insanity."
+            text_size: self.width-20, self.height-20
+            valign: "top"
+        Label:
+            text: "When I was born I was surprised."
+            text_size: self.width-20, self.height-20
+            valign: "middle"
+            halign: "center"
+        Label:
+            text: "A consultant is someone"
+            text_size: self.width-20, self.height-20
+            valign: "bottom"
+            halign: "justify"
+            
